@@ -1,0 +1,38 @@
+.hero   {
+    background-image: url(../../assets/page-heading-bg.jpg)!important;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 110px 0;
+text-align: center;}
+    .hero .container-header {
+width: 100%;
+margin: 0 auto
+;
+    }
+    .hero .container-header .row-h {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+   
+    .hero .container-header .row-h .col-12-h span.bread{
+        background-color: #fff;
+        color: #1e1e1e;
+        font-size: 14px;
+        font-weight: 500;
+        text-transform: uppercase;
+        padding: 10px 25px;
+        display: inline-block;
+        margin-bottom: 30px;
+    }
+    .hero .container-header .row-h .col-12-h span.bread a{
+        color: #1e1e1e;
+    }
+    .hero h3{
+        font-size: 48px;
+        font-weight: 900;
+        text-transform: uppercase;
+        color: #fff;
+    }
+    

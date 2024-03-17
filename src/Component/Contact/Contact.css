@@ -1,0 +1,215 @@
+.section-contact{
+    margin-top: 120px;
+    background-image: url(../../assets/contact-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0px 250px 0px;
+    position: relative;
+}
+.section-contact .container-contact{
+    max-width: 80%;
+    margin: 0 auto;
+}
+.section-contact .container-contact .row-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    max-width: 80%;
+    margin:0 auto;
+}
+.section-contact .container-contact .row-contact .col-conatct-4{
+    max-width: 80%;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+.section-contact .container-contact .row-contact .col-conatct-4 .section-heading{
+    margin-bottom: 70px;
+    align-items: center;
+}
+.section-contact .container-contact .row-contact .col-conatct-4  .section-heading h6 {
+    color: #ee626b;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.section-contact .container-contact .row-contact .col-conatct-4  .section-heading h2{
+max-width: 70%;
+margin: auto;
+color:#fff;
+font-size: 40px;
+font-weight: 700;
+text-transform: capitalize;
+margin-top: 20px;
+line-height: 56px;
+
+}
+.contact-content{
+    margin-top: -240px!important;
+    position: relative;
+    z-index: 2; 
+    max-width: 100%;
+}
+.contact-content .container-contact-content{
+    max-width:90%;
+    margin: auto;
+}
+.contact-content .container-contact-content .row-contact-content{
+    max-width: 90%;
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+flex-wrap: wrap;
+margin: auto;
+}
+.contact-content .container-contact-content .row-contact-content  .col-contact-content-7{
+max-width: 60%;
+align-content: space-between;
+/* margin-left: 50px; */
+/* padding: 60px; */
+align-items: center;
+}
+
+.contact-content .container-contact-content .row-contact-content  .col-contact-content-7 #map {
+    max-width: 100%;
+    height: 100%;
+
+    border-radius: 10px!important;
+    margin-bottom: 60px!important;}
+    .contact-content .container-contact-content .row-contact-content  .col-contact-content-7 #map iframe {
+  width: 100%!important;
+  height: 100%;
+  border: 0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+
+    }
+    /* table */
+    .contact-content .container-contact-content .row-contact-content 
+     .col-contact-content-7 .row-table-sec{
+max-width: 100%;
+display: flex;
+justify-content: flex-start;
+align-items: flex-start;
+    }
+    .contact-content .container-contact-content .row-contact-content  .col-contact-content-7 .row-table-sec .col-6-table-contact{
+        max-width: 90%;
+        align-items: flex-start;
+    }
+    .contact-content .container-contact-content .row-contact-content  .col-contact-content-5 {
+        max-width:40% ;
+
+margin-top: 50px;
+    }
+
+    /* .contact-content .container-contact-content .row-contact-content  .col-contact-content-5 #contact-form
+    {
+        width: 100%;
+        margin-left: 30px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+        padding: 35px 30px;
+        background-color: #fff
+    }
+    .contact-content .container-contact-content .row-contact-content  .col-contact-content-5 #contact-form .row-form{
+        max-width: 100%;
+
+    }
+    .contact-content .container-contact-content .row-contact-content  .col-contact-content-5 #contact-form .row-form .col-12-form{
+        width: 100%;
+    }
+
+        .contact-content .container-contact-content .row-contact-content  .col-contact-content-5 #contact-form .row-form .col-12-form fieldset 
+        label
+        {
+            font-size: 14px;
+            color:#3a3a3a;
+            text-transform: capitalize;
+            font-weight: 500;
+            margin-bottom: 15px;
+}
+
+.col-contact-content-5 #contact-form .row-form .col-12-form fieldset input{
+    width: 100%;
+    height: 44px;
+    border-radius: 22px;
+    background-color: #f6f6f6;
+    border: none;
+    margin-bottom: 30px;
+    font-size: 14px;
+    padding: 0px 15px;
+}
+
+.col-contact-content-5 #contact-form .row-form .col-12-form fieldset textarea{
+    width: 100%;
+    height: 150px;
+    max-height: 180px;
+    border-radius: 22px;
+    background-color: #f6f6f6;
+    border: none;
+    margin-bottom: 40px;
+    font-size: 14px;
+    padding: 15px 15px;
+} */
+/* media query */
+@media screen and (min-width:700px) and (max-width:814px) {
+    .contact-content .container-contact-content{max-width: 90%;margin: auto;}
+    .contact-content .container-contact-content .row-contact-content{
+        max-width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin:0  auto;
+    }
+    .contact-content .container-contact-content .row-contact-content .col-contact-content-7{
+        max-width: 90%;
+        align-items: center;
+        margin: 0 auto;
+        display: block;
+    }
+    .contact-content .container-contact-content .row-contact-content .col-contact-content-5{
+   max-width: 100%;
+   margin: auto;
+    }
+}
+
+@media screen and (min-width:300px) and (max-width:700px) {
+    .contact-content .container-contact-content{max-width: 100%;margin: auto;}
+    .contact-content .container-contact-content .row-contact-content{
+        max-width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin:0  auto;
+    }
+    .contact-content .container-contact-content .row-contact-content .col-contact-content-7{
+        max-width: 90%;
+        align-items: center;
+        margin: 0 auto;
+        display: block;
+    }
+    .contact-content .container-contact-content .row-contact-content .col-contact-content-5{
+   max-width: 100%;
+   align-items: center;
+   display: flex;
+   justify-content: center;
+   margin: 0 auto;
+    }
+}
+@media screen  and (max-width:1002px){
+    .contact-content .container-contact-content .row-contact-content .col-contact-content-7 .row-table-sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.contact-content .container-contact-content .row-contact-content .col-contact-content-7 .row-table-sec .col-6-table-contact{
+
+margin-top: 20px;
+margin-bottom: 40px;
+}}

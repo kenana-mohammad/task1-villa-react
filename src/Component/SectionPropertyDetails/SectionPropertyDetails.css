@@ -1,0 +1,102 @@
+.single-property  {
+    margin-top: 120px;
+}
+.single-property  .container-single-property{
+    max-width: 90%;
+    margin: 0 auto;
+}
+.single-property  .container-single-property .row-single-property{
+   max-width: 90%;
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+margin: auto;
+}
+.single-property  .container-single-property .row-single-property .col-8-single-property{
+    max-width: 60%;
+
+}
+.single-property  .container-single-property .row-single-property .col-8-single-property .img-main img{
+max-width: 90%; 
+ }
+.single-property  .container-single-property .row-single-property .col-4-single-property{
+max-width: 40%;
+
+margin-top: 50px;
+}
+
+.single-property  .container-single-property .row-single-property .col-4-single-property .table-info{
+max-width: 70%;
+}
+
+
+.main-content h4 {
+    font-size: 25px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    font-weight: 600;
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgb(238, 238, 238);
+
+}
+.main-content p{font-size: 14px;
+line-height: 28px;
+color: rgb(74, 74, 74);
+}
+
+
+
+
+
+
+/* media query  */
+@media screen  and (min-width:700px) and (max-width:977px){
+    .single-property  .container-single-property .row-single-property{
+        max-width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: auto;
+    }
+    .single-property  .container-single-property .row-single-property .col-8-single-property{
+        max-width: 80%;
+        margin: auto;
+    
+    }
+    .single-property  .container-single-property .row-single-property .col-8-single-property .img-main img{
+        width: 100%; 
+        align-items: center;
+         }
+         .single-property  .container-single-property .row-single-property .col-4-single-property{
+            max-width: 80%;
+display: block;
+margin: 20px auto;
+}
+}
+@media screen  and (min-width:300px) and (max-width:700px){
+    .single-property  .container-single-property .row-single-property{
+        max-width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    }
+    .single-property  .container-single-property .row-single-property .col-8-single-property{
+        max-width: 80%;
+        margin: auto;
+    
+    }
+    .single-property  .container-single-property .row-single-property .col-8-single-property .img-main img{
+        width: 100%; 
+        align-items: center;
+         }
+         .single-property  .container-single-property .row-single-property .col-4-single-property{
+            max-width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 50px;
+}
+}

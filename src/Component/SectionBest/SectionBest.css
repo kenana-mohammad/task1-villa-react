@@ -1,0 +1,273 @@
+.section.best-deal{
+    background-color:#fafafa;
+    padding:100px 0px ;
+    margin-top: 100px;
+    max-width: 100%;
+}
+
+.best-deal .container-best {
+    max-width: 90%;
+    margin-top: 100px;
+    padding-left: 40px;
+    
+}
+.best-deal .container-best .row-best  {
+    display: flex;
+    align-items: flex-start;
+    max-width: 90%;
+    flex-wrap: wrap;
+justify-content: space-around;
+}
+.best-deal .container-best .row-best .col-best-4 {
+    max-width: 40%;
+    align-items: center;
+}
+.best-deal .container-best .row-best .col-best-4 .section-heading h6 {
+    color: #ee626b!important;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.best-deal .container-best .row-best .col-best-4 .section-heading   h2 {
+        font-size: 40px;
+        font-weight: 700;
+        text-transform: capitalize;
+        margin-top: 20px;
+        line-height: 56px;
+    
+}
+.best-deal .col-best-4{
+    max-width: 40%;
+    align-items: flex-start;
+    }
+    .best-deal .container-best .row-best .col-8-best{
+        max-width: 60%;
+    } 
+    .best-deal  .col-4-best .table-content{
+    margin-top: 20px;
+    }
+    /* appartment col-8 */
+    
+/*sec table  */
+.best-deal .container-2 {
+   margin: 0 auto;
+   max-width: 100%;
+   margin-top: 50px;
+  }
+
+  .best-deal .container-2 .row-2-best{
+    max-width: 90%;
+display: flex;
+gap: 20px;
+align-content:center;
+justify-content: center;
+margin: auto;
+} 
+.best-deal .container-2 .row-2-best .col-6-best{
+ max-width: 30%;
+ margin-top: 20px;
+}
+.best-deal .container-2 .row-2-best .col-6-best img{
+    max-width: 100%;
+    height: 60%;
+}
+.best-deal .container-2 .row-2-best .col-6-best .title-best{
+    max-width: 70%;
+    align-items: center;
+}
+.best-deal .container-2 .row-2-best .col-6-best .title-best h2{
+    font-size: 17px;
+    font-weight: 600;
+    max-width: 90%;
+    margin-bottom: 30px;
+}
+.best-deal .container-2 .row-2-best .col-6-best .title-best p{
+    font-size: 14px;
+    max-width: 100%;
+align-items: flex-end;
+    line-height: 28px;
+    color: #4a4a4a;
+}
+/* .best-deal .container-2 .row-2-best .col-6-best {
+    max-width: 100%;
+ align-items: flex-end;
+} */
+ .best-deal .container-2 .row-2-best .col-6-best .title-best  a.calender  {
+max-width: 100%;
+display: inline-block;
+padding-left: 0px;
+padding-right: 5px;
+
+}
+.best-deal .container-2 .row-2-best .col-6-best .title-best a.calender i{
+    max-width: 100%;
+    margin-left: 0px;
+} 
+@media screen and (min-width:700px) and (max-width:900px) {
+  
+/* sec1 */
+.section.best-deal {
+max-width: 100%;
+}
+
+.section.best-deal .container-best{
+    max-width: 100%;
+}
+
+.section.best-deal .container-best .row-best{
+    max-width: 90%;
+    display: flex;
+    justify-content: space-between;
+flex-wrap: wrap;
+    align-items: center;
+}
+.section.best-deal .container-best .row-best .col-best-4{
+    max-width: 70%;
+    margin: auto;
+    text-align: center;
+}
+.section.best-deal .container-best .row-best .col-8-best{
+    max-width: 100%;
+    align-items: center;
+    margin: auto;
+    gap: 10px;
+}
+    .best-deal .container-2 .row-2-best {
+        max-width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+   .best-deal .container-2 .row-2-best .col-6-best{
+max-width: 100%;
+margin: auto;
+align-items: center;
+   }
+   .best-deal .container-2 .row-2-best .col-6-best  .title-best{
+    max-width: 70%;
+    margin: auto;
+   }
+   .best-deal .container-2 .row-2-best .col-6-best  .title-best h2{
+    max-width: 90%;
+    margin: auto;
+    text-align: center;
+   }
+}
+@media screen and (min-width:500px) and (max-width:700px) {
+    /* sec1 */
+    .section.best-deal{
+        max-width: 100%;
+    }
+    .best-deal .container-2 {
+max-width: 100%;
+    }
+    .best-deal .container-best .row-best {
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: auto;
+    } 
+    .best-deal .container-best .row-best .col-best-4{
+        max-width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .best-deal .container-best .row-best .col-8-best{
+        max-width: 100%;
+        align-content: center;
+        gap: 3px;
+        margin: auto;
+    }
+
+.best-deal .container-best .row-best .col-8-best .nav-tab{
+    align-content: center;
+    margin: auto;
+    padding-bottom: 3px;
+    max-width: 100%;
+}
+.best-deal .container-best .row-best .col-8-best .nav-tab ul{
+    max-width: 100%;
+    
+    
+}
+  
+}
+
+@media screen  and (min-width:500px) and (max-width:900px){
+    .best-deal .container-2 .row-2-best {
+        max-width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+   .best-deal .container-2 .row-2-best .col-6-best{
+max-width: 90%;
+   }
+}
+@media screen  and (min-width:300px) and (max-width:500px){
+    .best-deal .container-2 .row-2-best {
+        max-width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+   .best-deal .container-2 .row-2-best .col-6-best{
+max-width: 90%;
+   }
+   .best-deal .container-2 .row-2-best .col-6-best  .title-best{
+    max-width: 70%;
+    margin: auto;
+   }
+   .best-deal .container-2 .row-2-best .col-6-best  .title-best h2{
+    max-width: 90%;
+    margin: auto;
+    text-align: center;
+   }
+   .best-deal{
+    max-width: 100%;
+   }
+   .best-deal .container-best{
+    max-width: 90%;
+    margin: auto;
+   }
+   .best-deal .container-best .row-best{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+    gap: 20px;
+   }
+   .best-deal .container-best .row-best .col-best-4{
+   max-width: 100%;
+   align-content: center;
+   text-align: center;
+}
+.best-deal .container-best .row-best .col-8-best{
+   max-width: 100%;
+margin: auto;
+align-items: center;
+}
+.best-deal .container-best .row-best .col-8-best .nav-tab{
+    min-width: 100%;
+    margin: auto;
+}
+.best-deal .container-best .row-best .col-8-best .nav-tab ul{
+    display: flex;
+    max-width: 100%;
+    margin: auto;
+    justify-content: center;
+    flex-direction: column!important;
+    align-items: center;}
+
+}

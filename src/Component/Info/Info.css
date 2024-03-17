@@ -1,0 +1,78 @@
+.sub-header {
+    background-color: #fff; 
+    border-bottom: 1px solid #eee;
+ padding: 10px 0px;
+ margin:  auto;
+ max-width: 100%;
+}
+.container-sub-header{
+    max-width: 100%;
+}
+.sub-header .row-sub-header  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    margin: 20 auto;
+    padding-top: 10px;
+
+}
+.sub-header .row-sub-header .coloum-sub-header-8  {
+    max-width: 60%;
+    margin: auto;
+}
+.sub-header .row-sub-header .col-sub-header-4 {
+max-width: 40%;
+margin: auto;
+}
+
+.sub-header ul li {
+    display: inline-block;
+    list-style: none;
+}
+.sub-header .info{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sub-header .info li {
+    font-size: 14px;
+    max-width: 90%;
+    color: #7a7a7a;
+    border-right: 1px solid #eee;
+    margin-right: 25px;
+    padding-right: 25px;
+}
+.sub-header .info li i {
+    color: #f35525;
+    font-size: 20px;
+    margin-right: 8px;
+}
+.sub-header .row-sub-header .col-sub-header-4 .social-link{text-align: right;}
+.sub-header .row-sub-header .col-sub-header-4 .social-link li{
+    margin-left: 8px;
+    max-width: 100%;
+}
+.sub-header .row-sub-header .col-sub-header-4 .social-link li a i{
+
+width: 30px;
+    height: 30px;
+    background-color: #cdcdcd;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    font-size: 14px;
+    transition: all .3s;
+}
+a{text-decoration: none;}
+.sub-header .row-sub-header .col-sub-header-4 .social-link li a i:hover {
+    background-color: #f35525;
+}
+@media (max-width: 992px){
+.sub-header {
+    display: none;
+}
+}

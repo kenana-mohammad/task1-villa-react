@@ -1,0 +1,104 @@
+.fun-fact{
+    margin-top: 120px;
+    position: relative;
+    max-width: 100%;
+}
+.container-fact{
+    max-width: 90%;
+    margin: 0 auto;
+}
+.container-fact .row-fact{
+    max-width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.container-fact .row-fact .col-4-fact{
+    max-width: 30%;
+    align-content: flex-start;
+} 
+.fun-fact .container-fact .row-fact .col-4-fact .counter {
+    background-color: rgb(255, 238, 233);
+    position: relative;
+    border-radius: 10px;
+    width: 270px;
+    padding: 20px 0px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.fun-fact .counter h2 {
+    font-size: 40px;
+    color: rgb(243, 85, 37);
+    font-weight: 700;
+}
+.fun-fact .counter p {
+    text-align: center;
+    font-size: 16px;
+    color: rgb(30, 30, 30);
+    font-weight: 600;
+    line-height: 28px;
+}
+.fun-fact .counter::after{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(243, 85, 37);
+    border-radius: 50%;
+    content: "";
+ right:-25px;
+ top: -25px;
+}
+@media screen  and (min-width:1000px) and (max-width:1044px) {
+    .container-fact .row-fact{
+        display: flex;
+        max-width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .container-fact .row-fact .col-4-fact{
+        max-width: 23%;
+        align-content: flex-start;
+        margin-top: 60px;
+        
+    } 
+    .fun-fact .container-fact .row-fact .col-4-fact .counter {
+        max-width: 200px;
+               }
+       }
+
+@media screen  and (min-width:500px) and (max-width:1000px) {
+    .container-fact .row-fact{
+        display: flex;
+        flex-direction: column;
+        max-width: 90%;
+        justify-content: center;
+        align-items: center;
+    }
+    .container-fact .row-fact .col-4-fact{
+        max-width: 70%;
+        align-content: center;
+        margin-top: 60px;
+    } 
+}
+    @media screen  and (min-width:300px) and (max-width:500px) {
+        .container-fact .row-fact{
+
+            display: flex;
+            flex-direction: column;
+            max-width: 100%;
+            margin: auto;
+            justify-content: flex-start;
+            align-items: center;
+        }
+        .container-fact .row-fact .col-4-fact{
+            max-width: 100%!important;
+            margin-top: 60px;
+            align-items: flex-start;
+        } 
+        .fun-fact .container-fact .row-fact .col-4-fact .counter {
+ max-width: 80%;
+        }
+}

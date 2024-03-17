@@ -1,0 +1,155 @@
+.page-section{
+    margin-top: 120px;
+}
+.page-section .container-page-contact{
+    max-width: 90%;
+    margin: auto;
+}
+.page-section .container-page-contact  .row-page-contact{
+max-width: 80%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin: auto;
+}
+.page-section .container-page-contact  .row-page-contact .col-6-page-contact{
+    max-width: 50%;
+}
+.page-section .container-page-contact  .row-page-contact .col-6-page-contact .section-heading-page{
+    margin-bottom: 40px;
+}
+.page-section .container-page-contact  .row-page-contact .col-6-page-contact .section-heading-page h6{
+    color: #ee626b;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.page-section .container-page-contact  .row-page-contact .col-6-page-contact .section-heading-page h2{
+max-width: 70%;
+font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 20px;
+    line-height: 56px;
+}
+.page-section .container-page-contact  .row-page-contact .col-6-page-contact p{
+    font-size: 14px;
+    line-height: 28px;
+}
+.page-section .container-page-contact  .row-page-contact .col-6-page-contact .row-table-con{
+max-width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+
+ }
+ .page-section .container-page-contact  .row-page-contact .col-6-page-contact .row-table-con .col-12-table-con{
+max-width: 100%;
+align-items: center;
+}
+.page-section .container-page-contact  .row-page-contact .col-6-page-contact .row-table-con .col-12-table-con .table-info{
+max-width: 100%;
+margin-top: 9px;
+}
+.page-section .container-map{
+    max-width: 100%;
+    margin: 0 auto;
+}
+ .page-section .container-map .row-map{
+    max-width: 100%;margin-top: 80px;
+} 
+.page-section  .col-12-map{
+    margin:0 auto;
+    max-width: 80%;
+}
+ /* .page-section  .col-12-map .map {
+margin: 0 auto;
+display: block;
+max-width: 90%;
+} */
+.page-section  .col-12-map .map iframe{
+    border: 0;
+    max-width: 100%;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+
+}  
+@media screen  and (min-width:700px) and (max-width:900px){
+    
+    .page-section .container-page-contact  .row-page-contact{
+        min-width: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .page-section .container-page-contact  .row-page-contact .col-6-page-contact{
+        align-items: center;
+        margin: auto;
+        max-width: 90%;
+        margin-top: 50px;
+    }
+}
+
+@media screen  and (min-width:500px) and (max-width:700px){
+    .page-section .container-page-contact  {
+        max-width: 100%;
+    }
+    .page-section .container-page-contact  .row-page-contact{
+        min-width: 90%;
+        margin: auto;
+        display: flex;
+        text-align: center;
+        gap: 20px;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .page-section .container-page-contact  .row-page-contact .col-6-page-contact{
+        max-width: 80%;
+        margin: auto;
+    }
+       .page-section .container-page-contact  .row-page-contact .col-6-page-contact #contact-form .col-12-form .link{
+max-width: 70%;
+align-self: flex-end;
+    } 
+    .page-section .container-page-contact  .row-page-contact .col-6-page-contact #contact-form{
+        max-width: 80%;
+        margin: auto;
+        margin-top: 30px;
+    }}
+
+    @media screen  and (min-width:300px) and (max-width:500px){
+         .page-section .container-page-contact  {
+        max-width: 100%;
+    }
+    .page-section .container-page-contact  .row-page-contact{
+        min-width: 100%;
+        margin: auto;
+        display: flex;
+        text-align: center;
+        gap: 20px;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .page-section .container-page-contact  .row-page-contact .col-6-page-contact{
+        max-width: 90%;
+        margin: auto;
+    }
+    .page-section .container-page-contact  .row-page-contact .col-6-page-contact .section-heading-page h2{
+        max-width: 60%;
+        margin: auto;
+    }
+    .page-section .container-page-contact  .row-page-contact .col-6-page-contact #contact-form{
+        max-width: 100%;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .page-section .container-page-contact  .row-page-contact .col-6-page-contact #contact-form .col-12-form .link{
+max-width: 70%;
+align-self: flex-end;
+    } 
+  
+    }
+    

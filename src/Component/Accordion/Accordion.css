@@ -1,0 +1,19 @@
+.accordion{
+   margin-right: 10px;
+background-color: #fafafa!important;
+   margin-top: 70px!important;
+}
+.accordion-item{border-bottom: 1px solid rgb(234, 234, 234)!important;
+}
+.accordion-button {
+ 
+   box-shadow: none;
+   font-size: 17px;
+   font-weight: 500;
+   color: #1e1e1e;
+
+}
+  .accordion-button:not(.collapsed) {
+     color: #f35525!important;
+     background-color: #fafafa;
+     outline: none!important;}
